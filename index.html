@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Portfolio V5</title>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active mx-5">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+    </nav>
+
+
+    <header class="container-fluid header-bg py-5 mt-5">
+      <div class="container pt-3 pb-4">
+
+          <div class="row position-relative">
+
+            <div class="col-12 py-4 mb-5 shadow rounded headerBlocs d-flex justify-content-around align-items-end">
+              <h1>Mattéo Le Berre</h1>
+              <div>
+                <p class="statusText mb-0">Développeur web full-stack en formation</p>
+                <p class="d-flex justify-content-end mb-0 statusText"><a href="#" class="mr-5"><i class="fab fa-github githubIcon"></i> Github</a> <a href="#"><i class="fab fa-linkedin linkedinIcon"></i> Linkedin</a></p>
+              </div>
+            </div>
+
+
+            <div class="col-6">                                                                   <!-- --------- début carrés gauche ------------ -->
+              <div class="row">
+
+                <div class="col-12 px-5 py-5 mb-5 shadow text-justify rounded headerBlocs" id="aboutMeText">       <!-- -------- carré haut gauche --------------- -->
+                  <h3 class="pb-4 text-center">A propos</h3>
+                  <p>Actuellement en formation au sein de la formation diplômante Passerelle Numérique de l'école Centrale de Marseille, je suis à la recherche d'un stage pour la période du 25/02/2019 au 29/03/2019.</p>
+                </div>
+
+                <div class="col-12 px-5 py-5 shadow text-center rounded headerBlocs">              <!-- --------- carré bas gauche -------------- -->
+                  <h3 class="pb-4">Formation</h3>
+                  <ul class=" skillsList fontSizeMd text-left">
+                    <li class="pb-3"><strong>Formation de développeur full-stack</strong> Passerelle Numérique - Centrale Marseille</li>
+                    <li class="pb-3"><strong>L1 Droit</strong> Faculté de droit de Marseille</li>
+                    <li><strong>Baccalauréat Littéraire</strong> Lycée Thiers</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>                                                                                  <!-- --------- fin col-5 carrés gauche ---------- -->
+
+            
+
+            <div class="offset-1 col-5 px-5 pt-5 shadow rounded headerBlocs blocUp">                          <!-- --------------- carré Droite -------------------- -->
+              
+              <h3 class="text-center">Compétences</h3>
+
+              <ul class="list-group list-group-flush skillsList fontSizeMd px-5">
+                <li class="list-group-item"><strong>Front-end :</strong>
+                  <ul class="">
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    <li><i class="fab fa-js-square"></i> JavaScript</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                </li>
+
+                <li class="list-group-item"><strong>Back-end :</strong>
+                  <ul>
+                    <li><i class="fab fa-linux"></i> Unix/Linux</li>
+                    <li><i class="fab fa-github"></i> Git/Github</li>
+                    <li><i class="fas fa-database"></i> SQL</li>
+                  </ul>
+                </li>
+
+                <li class="list-group-item"><strong>Langues :</strong>
+                  <ul>
+                    <li>Anglais B2 (CECRL)</li>
+                    <li>Français</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>              <!-- fin col-6 carré droite -->
+
+          </div>                <!-- fin row, container et header en container-fluid -->
+        
+      </div>
+    </header>
+
+
+
+    <!-- ------------------------------------------------------------------------------------------ PROJETS ---------------------------------------------------------------------- -->
+
+
+    <div class="container-fluid projectsContainerFluid pb-4" id="portfolio">
+      <section class="container mb-5">
+        <h2 class="text-right pr-3 mr-5 pb-3 sectionTitle">Mes Projets</h2>
+
+        <div class="row py-5 pr-4 my-5 projectEven shadow">                     <!-- ------------------------- PROJET 1 ----------------------- -->
+          <div class="col-5">
+            <img src="img/projet1screen.png" class="img-fluid shadow rounded" id="imgUnergy">
+          </div>
+
+          <div class="col-7 px-4 text-justify">
+            <h3 class="projectTitle text-center">Site d'e-commerce</h3>
+            <p>Site d'e-commerce centré sur la vente d'éoliennes et de panneaux solaires, réalisé dans le cadre de la formation Passerelle Numérique. Réalisé en HTML et CSS.</p>
+
+            <a href="https://pn-promo5.github.io/c1-html-css-projet-1-MatteoLB/" class="btn btn-primary btn-lg btn-block projectsAndCVButtons">Voir le projet</a>
+          </div>
+        </div>
+
+
+        <div class="row pt-5 pb-5 pl-4 mt-5 projectOdd shadow">                <!-- -------------------------- PROJET 2 ----------------------- -->
+          <div class="col-7 px-4 text-justify">
+            <h3 class="projectTitle text-center">Jeu Javascript</h3>
+            <p>Mini-jeu consistant à entrer les lettres ou mots affichés à l'écran dans le temps imparti. Version mobile non fonctionnelle en l'état. Réalisé en HTML, CSS, et Javascript.</p>
+
+            <a href="#" class="btn btn-primary btn-lg btn-block projectsAndCVButtons">Voir le projet</a>
+          </div>
+
+          <div class="col-5">
+            <img src="img/jeuJSscreen2.png" class="img-fluid shadow rounded">
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+
+    <div class="container-fluid contactContainerFluid pb-5" id="contact">
+      <section class="container">
+        <h2 class="sectionTitle">Me contacter</h2>
+
+
+        <div class="row my-5 py-5">
+          <div class="col-6">    
+            <ul class="list-group list-group-flush contactList">
+              <li class="list-group-item">Nom : Le Berre</li>
+              <li class="list-group-item">Prénom : Mattéo</li>
+              <li class="list-group-item">Âge : 23 ans</li>
+              <li class="list-group-item">Téléphone : 06 70 15 92 23</li>
+              <li class="list-group-item">Mail : <a href="mailto:matteoleberre@gmail.com">matteoleberre@gmail.com</a></li>
+              <li class="list-group-item">Adresse : Marseille, France</li>
+            </ul>
+          </div>
+
+          <div class="col-6">
+            <ul class="contactButtons">
+              <li><a href="#" class="mr-4"><i class="fab fa-github githubIcon"></i></a> <a href="#" class="ml-4"><i class="fab fa-linkedin linkedinIcon"></i></a></li>
+              <li><a href="#" class="btn btn-primary downloadCV projectsAndCVButtons">Télécharger mon CV</a></li>
+            </ul>
+          </div>
+        </div>
+        
+      </section>
+    </div>
+
+    
+  </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
